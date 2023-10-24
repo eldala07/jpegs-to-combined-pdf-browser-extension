@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Combine PDFs",
+    "version": "1.0",
+    "permissions": ["downloads"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
